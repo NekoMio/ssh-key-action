@@ -63,7 +63,7 @@ function main(): void
 		if(config !== "")
 		{
 			files.push({
-				name: "config",
+				name: "ssh_config",
 				contents: insertLf(config, true, true),
 				options: {
 					mode: 0o644,
