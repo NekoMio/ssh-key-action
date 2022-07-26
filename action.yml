@@ -18,7 +18,7 @@ inputs:
     required: true
     default: ""
   config:
-    description: "SSH config"
+    description: "SSH_config"
     required: false
     default: ""
   if_key_exists:
